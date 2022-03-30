@@ -14,7 +14,3 @@
 
  console.log(`The temparature is ${newton} degrees newton`);
 
-
-
-
-
