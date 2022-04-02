@@ -1,16 +1,15 @@
- const kelvin = 293;
+const kelvin = 293;
 
- const celsius = kelvin - 273;
+const celsius = kelvin - 273;
 
- let fahrenheit = celsius * (9/5) + 32;
+let fahrenheit = celsius * (9 / 5) + 32;
 
- fahrenheit = Math.floor(fahrenheit);
+fahrenheit = Math.floor(fahrenheit);
 
- console.log(`The temparature is ${fahrenheit} degrees fahrenheit.`);
+console.log(`The temparature is ${fahrenheit} degrees fahrenheit.`);
 
- let newton = celsius * (33/100);
+let newton = celsius * (33 / 100);
 
- newton = Mat.floor(newton);
+newton = Mat.floor(newton);
 
- console.log(`The temparature is ${newton} degrees newton`);
-
+console.log(`The temparature is ${newton} degrees newton`);
