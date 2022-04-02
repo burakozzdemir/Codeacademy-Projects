@@ -10,4 +10,6 @@ earlyYears *= 4;
 
 let myAgeInDogYears = laterYears + earlyYears;
 
-console.log(`My name is 'Burak'.I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+console.log(
+  `My name is 'Burak'.I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`
+);
