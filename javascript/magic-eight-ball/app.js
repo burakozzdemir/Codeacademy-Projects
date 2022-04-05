@@ -8,7 +8,7 @@ console.log(`The user asked: ${userQuestion}`);
 
 let randomNumber = Math.floor(Math.random() * 8);
 
-let eightBall = "";
+let eightBall = " ";
 
 switch (randomNumber) {
   case 0:
@@ -37,3 +37,4 @@ switch (randomNumber) {
     break;
 }
 console.log(eightBall);
+
