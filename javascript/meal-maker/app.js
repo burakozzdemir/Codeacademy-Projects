@@ -1,5 +1,5 @@
 const menu = {
-  _menu: (''),
+  _menu: "",
   _price: 0,
   set meal(mealToCheck) {
     if (typeof mealToCheck === "string") {
