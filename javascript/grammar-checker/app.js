@@ -7,7 +7,7 @@ let badWord = 'freaking';
 
 let count = 0;
 storyWords.forEach((word => {
-count++;
+  count++;
 }));
 console.log(count);
 
@@ -28,7 +28,7 @@ console.log(badWordIndex);
 storyWords[78] = 'really';
 
 let lenghtCheck = storyWords.every((word) => {
-    return word.length < 10
+  return word.length < 10
 });
 
 console.log(lenghtCheck);
